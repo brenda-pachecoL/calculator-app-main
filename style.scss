@@ -47,3 +47,28 @@ input[ type="checkbox"]:checked ~ label{
     transform: translate(0px,0px);
     background-color: orange;
 }
+main{
+    display: flex;
+    justify-content: center;
+    
+    .container-button{
+        width: 100%;
+        td{
+            width: 25%;
+            button{
+                width: 100%;
+            }
+        }
+    }
+    .calculadora{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        .resultado{
+            width: 100%;
+        }
+
+    }
+}
