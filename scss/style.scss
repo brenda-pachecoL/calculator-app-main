@@ -1,7 +1,16 @@
-*{
+
+@import "components/color";
+body{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    width: 100%;
+}
+.container{
+    width: 40%;
+    height: auto;
+    background-color: $t1mainBackground ;
+    
 }
 div.toggle{
     margin-top: 20px;
