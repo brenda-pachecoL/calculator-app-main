@@ -1,17 +1,3 @@
-
-@import "./components/components";
-body{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-    width: 100%;
-}
-.container{
-    width: 40%;
-    height: auto;
-    background-color: $tema1mainBackground ;
-    
-}
 div.toggle{
     margin-top: 20px;
     display: flex;
@@ -55,29 +41,4 @@ input[ type="checkbox"]:checked ~ label::before{
 input[ type="checkbox"]:checked ~ label{
     transform: translate(0px,0px);
     background-color: orange;
-}
-main{
-    display: flex;
-    justify-content: center;
-    
-    .container-button{
-        width: 100%;
-        td{
-            width: 25%;
-            button{
-                width: 100%;
-            }
-        }
-    }
-    .calculadora{
-        width: 40%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
-        .resultado{
-            width: 100%;
-        }
-
-    }
 }
