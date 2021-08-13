@@ -1,1 +1,11 @@
+// // global style where we will import all other stylesheets 
+// estilo global donde importaremos todas las demás hojas de estilo
+
+// Abtracts
 @import "./abstracts/abstracts";
+
+// Base
+@import "./base/base";
+
+// Components
+@import "./components/components";
