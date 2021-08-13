@@ -3,6 +3,14 @@ body {
   font-family: 'Spartan', sans-serif;
 }
 
+.button {
+  width: 25%;
+  font-size: 32px;
+  background-color: #eae3dc;
+  color: #404e72;
+  border-color: none;
+}
+
 div.toggle {
   margin-top: 20px;
   display: -webkit-box;
