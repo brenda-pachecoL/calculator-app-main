@@ -1,8 +1,13 @@
-.button{
+.btn-number{
 
     width: 24%;
     font-size: $font-number;
     background-color: $theme1-key-background-orange;
     color: $theme1-text-blue ;
     border-color: none;
+}
+.btn-down{
+    margin: 2%;
+    width: 45%;
+    height: 40px;
 }

@@ -3,12 +3,18 @@ body {
   font-family: 'Spartan', sans-serif;
 }
 
-.button {
+.btn-number {
   width: 24%;
   font-size: 32px;
   background-color: #eae3dc;
   color: #444b5a;
   border-color: none;
+}
+
+.btn-down {
+  margin: 2%;
+  width: 45%;
+  height: 40px;
 }
 
 div.toggle {
