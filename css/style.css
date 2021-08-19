@@ -4,7 +4,8 @@ body {
 }
 
 .btn-number {
-  width: 24%;
+  margin: 2%;
+  width: 20%;
   font-size: 32px;
   background-color: #eae3dc;
   color: #444b5a;
