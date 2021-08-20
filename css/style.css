@@ -22,8 +22,15 @@ body {
           justify-content: space-between;
 }
 
-p {
-  width: 40%;
+.header p {
+  font-size: 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: black;
 }
 
 .themes-container {
