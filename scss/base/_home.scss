@@ -11,14 +11,37 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: baseline;
+    .title{
+        font-size: 70px;
+        margin: 0%;
+    }
     p{
-        font-size: 30px;
+        font-size: 18px;
         width: fit-content;
         height: fit-content;
-        background-color: black;
     }
+    
 }
 
 .themes-container{
+    display: flex;
     width: 40%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    p{
+        padding: 0;
+        margin: 0 16px 0px 0px;
+    }
+}
+.result-container{
+    height: 140px;
+    margin: 6% 0 6% 0;
+    background-color: $theme1-screen;
+    border-radius: 8px;
+}
+.buttons-container{
+    background-color: $theme1-key-background-blue;
+    border-radius: 8px;
+
 }

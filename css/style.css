@@ -20,21 +20,54 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.header .title {
+  font-size: 70px;
+  margin: 0%;
 }
 
 .header p {
-  font-size: 30px;
+  font-size: 18px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  background-color: black;
 }
 
 .themes-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 40%;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.themes-container p {
+  padding: 0;
+  margin: 0 16px 0px 0px;
+}
+
+.result-container {
+  height: 140px;
+  margin: 6% 0 6% 0;
+  background-color: #182034;
+  border-radius: 8px;
+}
+
+.buttons-container {
+  background-color: #637097;
+  border-radius: 8px;
 }
 
 .btn-number {
