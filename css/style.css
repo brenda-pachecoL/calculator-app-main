@@ -81,6 +81,7 @@ body {
   border-color: none;
   height: 100px;
   border-radius: 15px;
+  font-size: 32px;
 }
 
 .btn-down {
@@ -88,6 +89,18 @@ body {
   width: 45%;
   height: 100px;
   border-radius: 15px;
+}
+
+.calculadora-up [class~="blue"] {
+  background-color: #637097;
+  color: white;
+  border-color: #404e72;
+}
+
+.btn-down {
+  background-color: #d03f2f;
+  color: white;
+  font-size: 32px;
 }
 
 div.toggle {

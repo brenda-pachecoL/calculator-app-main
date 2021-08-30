@@ -7,10 +7,23 @@
     border-color: none;
     height: 100px;
     border-radius: 15px;
+    font-size: 32px;
 }
 .btn-down{
     margin: 2%;
     width: 45%;
     height: 100px;
     border-radius: 15px;
+    
+}
+.calculadora-up [class~="blue"]{
+    background-color: $theme1-key-background-blue;
+    color: $theme1-text-white;
+    border-color: $theme1-keyshadow-blue;
+   
+}
+.btn-down{
+    background-color: $theme1-key-toggle-background;
+    color: $theme1-text-white;
+    font-size: 32px;
 }
