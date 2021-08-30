@@ -5,9 +5,9 @@ body {
 }
 
 .container {
-  width: 50%;
+  width: 40%;
   position: relative;
-  left: 25%;
+  left: 30%;
 }
 
 .header {
@@ -79,15 +79,15 @@ body {
   background-color: #eae3dc;
   color: #444b5a;
   border-color: none;
-  height: 100px;
   border-radius: 15px;
   font-size: 32px;
+  height: 142px;
 }
 
 .btn-down {
   margin: 2%;
   width: 45%;
-  height: 100px;
+  height: 142px;
   border-radius: 15px;
 }
 
