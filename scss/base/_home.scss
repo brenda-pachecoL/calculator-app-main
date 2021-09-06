@@ -1,12 +1,13 @@
 body{
-    font-family: 'Spartan', sans-serif;
     background-color: $theme1-main-background;
     color: $theme1-text-white;
+    font-family: 'Spartan', sans-serif;
 }
 .container{
     width: 40%; 
     position: relative;
     left: 30%;
+    
 }
 .header{
     margin: 2%;
