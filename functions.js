@@ -18,6 +18,8 @@ function init(){
     var reiniciar = document.getElementById("reiniciar");
     var igual = document.getElementById("igual");
 
+    uno.onclick = function
+
 
 
 }
