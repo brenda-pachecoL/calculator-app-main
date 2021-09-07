@@ -65,10 +65,11 @@ body {
   margin: 6% 0 6% 0;
   background-color: #182034;
   border-radius: 8px;
+  font-size: 34px;
 }
 
 .buttons-container {
-  background-color: #637097;
+  background-color: #232c43;
   border-radius: 8px;
 }
 
