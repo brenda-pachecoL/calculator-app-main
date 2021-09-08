@@ -54,6 +54,14 @@ body{
 .buttons-container{
     background-color: $theme1-toggle-keypad;
     border-radius: 8px;
-    
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculadora-up{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
