@@ -112,6 +112,17 @@ body {
           justify-content: space-between;
 }
 
+@media (max-width: 1100px) {
+  body {
+    background-color: #bc15f4;
+  }
+  .container {
+    width: 60%;
+    position: relative;
+    left: 20%;
+  }
+}
+
 .btn-number {
   margin: 2%;
   width: 20%;
