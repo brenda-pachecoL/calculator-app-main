@@ -114,9 +114,9 @@ body {
 
 @media (max-width: 900px) {
   .container {
-    width: 90%;
+    width: 96%;
     position: relative;
-    left: 5%;
+    left: 2%;
   }
   .result-container {
     height: 85px;
