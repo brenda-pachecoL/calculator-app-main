@@ -9,6 +9,9 @@
     font-size: 32px;
     height: 70px;
     font-family: 'Spartan', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .btn-down{
     margin: 2%;
@@ -23,9 +26,15 @@
     color: $theme1-text-white;
     border-color: $theme1-keyshadow-blue;
    font-size: 18px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 .btn-down{
     background-color: $theme1-key-toggle-background;
     color: $theme1-text-white;
     font-size: 32px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
 }
