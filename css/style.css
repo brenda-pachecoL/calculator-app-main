@@ -120,14 +120,14 @@ body {
   border-color: none;
   border-radius: 15px;
   font-size: 32px;
-  height: 102px;
+  height: 70px;
   font-family: 'Spartan', sans-serif;
 }
 
 .btn-down {
   margin: 2%;
   width: 45%;
-  height: 102px;
+  height: 70px;
   border-radius: 15px;
   font-family: 'Spartan', sans-serif;
 }
