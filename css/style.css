@@ -5,9 +5,9 @@ body {
 }
 
 .container {
-  width: 40%;
+  width: 50%;
   position: relative;
-  left: 30%;
+  left: 25%;
 }
 
 .header {
@@ -28,7 +28,7 @@ body {
 }
 
 .header .title {
-  font-size: 70px;
+  font-size: 32px;
   margin: 0%;
 }
 
@@ -112,14 +112,14 @@ body {
           justify-content: space-between;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 900px) {
   body {
     background-color: #bc15f4;
   }
   .container {
-    width: 60%;
+    width: 90%;
     position: relative;
-    left: 20%;
+    left: 5%;
   }
 }
 
