@@ -48,7 +48,7 @@ body{
     align-items: center;
     justify-content: flex-end;
      span{
-        margin-right: 40px;
+        margin-right: 7%;
      }
 }
 .buttons-container{
@@ -72,5 +72,8 @@ body{
         width: 90%;
         position: relative;
         left: 5%;
+    }
+    .result-container{
+        height: 100px;
     }
 }
