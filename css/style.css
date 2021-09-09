@@ -113,9 +113,6 @@ body {
 }
 
 @media (max-width: 900px) {
-  body {
-    background-color: #bc15f4;
-  }
   .container {
     width: 90%;
     position: relative;
