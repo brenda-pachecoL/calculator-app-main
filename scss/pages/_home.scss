@@ -2,11 +2,15 @@ body{
     background-color: $theme1-main-background;
     color: $theme1-text-white;
     font-family: 'Spartan', sans-serif;
+    overflow: hidden;
 }
 .container{
     width: 50%; 
-    position: relative;
+    max-width: 1440px;
+    position: absolute;
     left: 25%;
+    height: 80%;
+    top: 10%;
     
 }
 .header{
