@@ -252,4 +252,11 @@ body {
     height: 85px;
   }
 }
+
+@media (min-width: 1600px) {
+  .container {
+    width: 26%;
+    left: 37%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
