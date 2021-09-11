@@ -242,6 +242,16 @@ body {
           justify-content: space-between;
 }
 
+.calculadora-up .btn-number:hover {
+  color: black;
+  TEXT-DECORATION: underline;
+}
+
+.calculadora-up .btn-down:hover {
+  color: black;
+  text-decoration: underline;
+}
+
 @media (max-width: 900px) {
   .container {
     width: 96%;
