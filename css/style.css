@@ -245,6 +245,8 @@ body {
 
 .calculadora-up .btn-number:hover {
   color: black;
+  font-size: 50px;
+  width: 22%;
 }
 
 .calculadora-up .btn-down:hover {
