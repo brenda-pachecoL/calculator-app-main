@@ -244,14 +244,11 @@ body {
 }
 
 .calculadora-up .btn-number:hover {
-  background-color: #232c43;
-  color: white;
-  width: 22%;
+  color: black;
 }
 
 .calculadora-up .btn-down:hover {
   color: black;
-  font-size: 30px;
 }
 
 @media (max-width: 900px) {
