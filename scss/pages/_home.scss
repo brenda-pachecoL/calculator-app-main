@@ -71,7 +71,8 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     .btn-number:hover{
-        color: black;
+        background-color:$theme1-toggle-keypad;
+        color: white;
         width: 22%;
     }
     .btn-down:hover{
