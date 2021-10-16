@@ -267,9 +267,6 @@ body {
   .result-container {
     height: 85px;
   }
-  .result-container .resultado {
-    width: 100%;
-  }
 }
 
 @media (min-width: 1600px) {
