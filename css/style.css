@@ -259,9 +259,6 @@ body {
 }
 
 @media (max-width: 900px) {
-  body {
-    background-color: red;
-  }
   .container {
     width: 96%;
     position: relative;
