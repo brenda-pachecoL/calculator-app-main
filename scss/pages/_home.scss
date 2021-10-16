@@ -50,11 +50,18 @@ body{
     font-size: 34px;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-     span{
-        margin-right: 5%;
-     }
+    justify-content: center;
 }
+.resultado{
+    background-color: $theme1-screen;
+    color: $theme1-text-white;
+    width: 80%;
+    margin: 0;
+    padding: 0%;
+    border: 0;
+    font-size: 32px;
+    text-align: end;
+ }
 .buttons-container{
     background-color: $theme1-toggle-keypad;
     border-radius: 8px;
@@ -77,8 +84,12 @@ body{
     .btn-down:hover{
         color: black;
     }
+  
 }
 @media (max-width: 900px){
+    body{
+        background-color: red;
+    }
    
     .container{
         width: 96%;
@@ -87,9 +98,15 @@ body{
     }
     .result-container{
         height: 85px;
+        
+        .resultado{
+            width: 100%;
+            background-color: aqua;
+        }
     }
 }
 @media (min-width: 1600px){
+   
   
    .container{   
     width: 26%;

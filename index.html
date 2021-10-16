@@ -13,8 +13,8 @@
   </head>
   <body onload="init();">
     <!-- caja que contine todo -->
+  
     <div class="container">
-      <!-- primera caaja -->
       <div class="header">
         <p class="title">calc</p>
         <div class="themes-container">
@@ -26,32 +26,35 @@
           </div>
         </div>
       </div>
-      <!-- caja de en medio -->
-      <div class="result-container">
-        <span id="resultado">399,981</span>
-      </div>
-      <!-- caja de los bottones -->
-      <div class="buttons-container">
-        <div class="calculadora-up">
-          <button class="btn-number" value="7" >7</button>
-          <button class="btn-number" value="8">8</button>
-          <button class="btn-number" value="9">9</button>
-          <button class="btn-number blue" value="delete">DEL</button>
-          <button class="btn-number" value="4">4</button>
-          <button class="btn-number" value="5">5</button>
-          <button class="btn-number" value="6">6</button>
-          <button class="btn-number" value="+">+</button>
-          <button class="btn-number" value="1">1</button>
-          <button class="btn-number" value="2">2</button>
-          <button class="btn-number" value="3">3</button>
-          <button class="btn-number" value="-">-</button>
-          <button class="btn-number" value=".">.</button>
-          <button class="btn-number" value="0">0</button>
-          <button class="btn-number" value="/">/</button>
-          <button class="btn-number" value="*">x</button>
-          <button class="btn-down blue" value="reset" >RESET</button>
-          <button class="btn-down" value="=">=</button>
-        </div>
+      <div id="appgBg">
+
+        <form name="calculator">
+          <div class="result-container">
+            <input class="resultado" type="textfield" name="ans" value="" autocomplete="off" readonly >
+          </div>
+          <div class="buttons-container">
+           <div class="calculadora-up"> 
+             <input class="btn-number" type="button" value="7"onclick="document.calculator.ans.value+='7'" >
+             <input class="btn-number" type="button" value="8" onclick="document.calculator.ans.value+='8'">        
+             <input class="btn-number" type="button" value="9" onclick="document.calculator.ans.value+='9'">
+             <input class="btn-number blue" type="button" value="DEL" onclick="document.calculator.ans.value+=''">
+             <input class="btn-number" type="button" value="4" onclick="document.calculator.ans.value+='4'">
+             <input class="btn-number" type="button" value="5" onclick="document.calculator.ans.value+='5'">
+             <input class="btn-number" type="button" value="6" onclick="document.calculator.ans.value+='6'">
+             <input class="btn-number" type="button" value="+" onclick="document.calculator.ans.value+='+'">
+             <input class="btn-number" type="button" value="1" onclick="document.calculator.ans.value+='1'">
+             <input class="btn-number" type="button" value="2" onclick="document.calculator.ans.value+='2'">
+             <input class="btn-number" type="button" value="3" onclick="document.calculator.ans.value+='3'">
+             <input class="btn-number" type="button" value="-" onclick="document.calculator.ans.value+='-'">
+             <input class="btn-number" type="button" value="." onclick="document.calculator.ans.value+='.'">
+             <input class="btn-number" type="button" value="0" onclick="document.calculator.ans.value+='0'">
+             <input class="btn-number" type="button" value="/" onclick="document.calculator.ans.value+='/'">
+             <input class="btn-number" type="button" value="x" onclick="document.calculator.ans.value+='*'">
+             <input class="btn-down blue" type="reset" value="RESET">
+             <input class="btn-down" type="button" value="=" onclick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+           </div>
+          </div>
+        </form>
       </div>
     </div>
     <script src="./functions.js"></script>
