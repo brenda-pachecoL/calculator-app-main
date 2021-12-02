@@ -9,57 +9,59 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+    <script src="./functions.js"  type="text/javascript"></script>
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
   <body>
     <!-- caja que contine todo -->
   
     <div class="container">
-      <div class="header">
-        <p class="title">calc</p>
-        <div class="themes-container">
-          <P>THEME</P>
-          <div class="toggle">
-            <p>1 2 3</p>
-            <input type="checkbox" name="boton" id="boton">
-            <label for="boton"></label>
-          </div>
+        <div class="title">
+             <div class="toggle">
+                <h3>Calc</h3>
+                <div class="temas">
+                  <p id="uno">1</p>
+                  <p id="dos">2</p>
+                  <p id="tres">3</p>
+                 </div>
+             </div>
+             <div class="control">
+                 <p>Themes</p>
+                 <div class="box">
+                     <div id="circle"></div>
+                 </div>
+             </div>
+             <div class="screen">
+                <form name="calc">
+                    <input type="text" name="text" readonly id="screen">
+                </form>
+            </div>
+             <div class="cal-cont ">
+                 <div class="btn">
+                     <button class="num" >7</button>
+                     <button class="num" >8</button>
+                     <button class="num" >9</button>
+                     <button class="num" >DEL</button>
+                     <button class="num" >4</button>
+                     <button class="num" >5</button>
+                     <button class="num" >6</button>
+                     <button class="num" >+</button>
+                     <button class="num" >1</button>
+                     <button class="num" >2</button>
+                     <button class="num" >3</button>
+                     <button class="num" >-</button>
+                     <button class="num" >.</button>
+                     <button class="num" >0</button>
+                     <button class="num" >/</button>
+                     <button class="num" >x</button>
+                     <button class="num" >RESET</button>
+                     <button class="num" >=</button>
+                   
+                     
+                 </div>
+             </div>
         </div>
-      </div>
-      <div id="appgBg">
 
-        <div class="calculadora">
-          <div class="display">
-            <div id="valor-anterior"></div>
-            <div id="valor-actual"></div>
-          </div>
-          <div class="buttons-container">
-           <div class="calculadora-up"> 
-             <button class="numero">7</button>
-             <button class="numero">8</button>
-             <button class="numero">9</button>
-             <button onclick="display.borrar()" class="operador blue" >DEL</button>
-             <button class="numero">4</button>
-             <button class="numero">5</button>
-             <button class="numero">6</button>
-             <button class="operador" value="suma">+</button>
-             <button class="numero">1</button>
-             <button class="numero">2</button>
-             <button class="numero">3</button>
-             <button class="operador" value="resta">-</button>
-             <button class="numero">.</button>
-             <button class="col-2 numero">0</button>
-             <button class="operador" value="dividir">/</button>
-             <button class="operador" value="multiplicacion">x</button>
-             <button onclick="display.borarTodo()" class="col-2 btn-down blue">RESET</button>
-             <button class="btn-down operador" value="igual">=</button>
-           </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <script src="./javascrip/Calculadora.js" type="text/javascript"></script>
-    <script src="./javascrip/index.js" type="text/javascript" defer></script>
-    <script src="./javascrip/Display.js" type="text/javascript"></script>
+  
   </body>
 </html>           
