@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
-  <body onload="init();">
+  <body>
     <!-- caja que contine todo -->
   
     <div class="container">
@@ -28,35 +28,38 @@
       </div>
       <div id="appgBg">
 
-        <form name="calculator">
-          <div class="result-container">
-            <input class="resultado" type="textfield" name="ans" value="" autocomplete="off" readonly >
+        <div class="calculadora">
+          <div class="display">
+            <div id="valor-anterior"></div>
+            <div id="valor-actual"></div>
           </div>
           <div class="buttons-container">
            <div class="calculadora-up"> 
-             <input class="btn-number" type="button" value="7"onclick="document.calculator.ans.value+='7'" >
-             <input class="btn-number" type="button" value="8" onclick="document.calculator.ans.value+='8'">        
-             <input class="btn-number" type="button" value="9" onclick="document.calculator.ans.value+='9'">
-             <input class="btn-number blue" type="button" value="DEL" onclick="document.calculator.ans.value+=''">
-             <input class="btn-number" type="button" value="4" onclick="document.calculator.ans.value+='4'">
-             <input class="btn-number" type="button" value="5" onclick="document.calculator.ans.value+='5'">
-             <input class="btn-number" type="button" value="6" onclick="document.calculator.ans.value+='6'">
-             <input class="btn-number" type="button" value="+" onclick="document.calculator.ans.value+='+'">
-             <input class="btn-number" type="button" value="1" onclick="document.calculator.ans.value+='1'">
-             <input class="btn-number" type="button" value="2" onclick="document.calculator.ans.value+='2'">
-             <input class="btn-number" type="button" value="3" onclick="document.calculator.ans.value+='3'">
-             <input class="btn-number" type="button" value="-" onclick="document.calculator.ans.value+='-'">
-             <input class="btn-number" type="button" value="." onclick="document.calculator.ans.value+='.'">
-             <input class="btn-number" type="button" value="0" onclick="document.calculator.ans.value+='0'">
-             <input class="btn-number" type="button" value="/" onclick="document.calculator.ans.value+='/'">
-             <input class="btn-number" type="button" value="x" onclick="document.calculator.ans.value+='*'">
-             <input class="btn-down blue" type="reset" value="RESET">
-             <input class="btn-down" type="button" value="=" onclick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+             <button class="numero">7</button>
+             <button class="numero">8</button>
+             <button class="numero">9</button>
+             <button onclick="display.borrar()" class="operador blue" >DEL</button>
+             <button class="numero">4</button>
+             <button class="numero">5</button>
+             <button class="numero">6</button>
+             <button class="operador" value="suma">+</button>
+             <button class="numero">1</button>
+             <button class="numero">2</button>
+             <button class="numero">3</button>
+             <button class="operador" value="resta">-</button>
+             <button class="numero">.</button>
+             <button class="col-2 numero">0</button>
+             <button class="operador" value="dividir">/</button>
+             <button class="operador" value="multiplicacion">x</button>
+             <button onclick="display.borarTodo()" class="col-2 btn-down blue">RESET</button>
+             <button class="btn-down operador" value="igual">=</button>
            </div>
           </div>
-        </form>
+        </div>
       </div>
     </div>
-    <script src="./functions.js"></script>
+    <script src="./javascrip/Calculadora.js" type="text/javascript"></script>
+    <script src="./javascrip/index.js" type="text/javascript" defer></script>
+    <script src="./javascrip/Display.js" type="text/javascript"></script>
   </body>
 </html>           
