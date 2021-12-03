@@ -17,7 +17,6 @@
 }
 body{
 	width: 100%;
-	max-width: 1440px;
 	background-color: var(--mainbgcolor);
 	height: 100vh;
 	display: flex;
@@ -193,6 +192,58 @@ body.active2 .equal{
 	background-color: hsl(176, 100%, 44%);
 	color: #fff;
 }
-.num{
+@media (max-width: 600px){
+	body{
+		background-color: #111;
 
+        height: max-content;
+	}
+	.coantainer{
+		width: 90;
+		display: flex;
+   		flex-direction: column;
+    	align-items: center;
+	}
+	
+	.title{
+		width: 90%;
+		padding-top: 30PX;
+	}
+	.screen{
+		width: 90%;
+	}
+	.btn{
+		width: 100%;
+		justify-content: center;
+	}
+	.num{
+		width: 20%;
+		padding: 0%;
+		margin: 2%;
+        height: 50px;
+	}
+	.reset{
+		width: 45%;
+        height: 50px;
+        padding: 0%;
+        margin: 2%;
+	}
+	.equal{   
+		width: 45%;
+        height: 50px;
+        padding: 0%;
+        margin: 2%;
+	}
+	.operador{
+		width: 20%;
+        height: 50px;
+        padding: 0%;
+        margin: 2%;
+	}
+	.del{
+		width: 20%;
+		padding: 0%;
+		margin: 2%;
+        height: 50px;
+	}
 }
