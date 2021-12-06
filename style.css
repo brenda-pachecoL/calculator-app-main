@@ -192,9 +192,8 @@ body.active2 .equal{
 	background-color: hsl(176, 100%, 44%);
 	color: #fff;
 }
-@media (max-width: 600px){
+@media (max-width: 900px){
 	body{
-		background-color: #111;
 
         height: max-content;
 	}
@@ -245,5 +244,8 @@ body.active2 .equal{
 		padding: 0%;
 		margin: 2%;
         height: 50px;
+	}
+	.cal-body{
+		width: 90%;
 	}
 }
